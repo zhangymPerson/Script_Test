@@ -21,7 +21,6 @@ def main(args):
     print "__main__ = %s"%__name__ 
 
 
-test()
 
 
 if __name__ == '__main__':
