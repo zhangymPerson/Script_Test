@@ -2,4 +2,4 @@
 
 - 教程网址
 
-![菜鸟教程](http://www.runoob.com/linux/linux-shell.html)
+[菜鸟教程](http://www.runoob.com/linux/linux-shell.html)
