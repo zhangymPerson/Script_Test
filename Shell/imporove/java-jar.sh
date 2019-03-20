@@ -111,6 +111,16 @@ if [ $# -eq 3 ];then
 		start_app $jarpath $jarname
 		logs "restart ..."
 		;;
+	status )
+		is_exist $jarname
+		PIDS=0
+		PIDS=$(jps|grep $appName|awk '{print $1}')
+		if [[  ${PIDS}  -eq "" ]];then
+			echo "application is norunging!"
+		else
+			echo "application is running!"
+		fi
+		;;
 	* )
 		echo "======================================"
 		echo "主要是用来启动jar包"
