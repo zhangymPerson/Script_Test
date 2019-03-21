@@ -20,9 +20,14 @@ function log(){
 # 编辑测试代码
 # 输出日志
 
+filepath=/usr/local/git-progect/Script_Test/Shell/imporove/awk-test/test-file
+
 #logs ERROR error-info
 #log log-info
 log 测试awk命令
 
-
+log "打印 ${filepath} 下的文件第一列字符"
+#awk '{print $1}' $filepath/a.txt
+# -F指定文件的分隔符
+awk -F , '{print $1,$5}' $filepath/c.txt
 log 测试完成
