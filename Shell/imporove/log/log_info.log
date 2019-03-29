@@ -1,0 +1,104 @@
+2019-03-20 17:56:02.592 [main] INFO  cn.danao.LogApplication - Starting LogApplication v1.0-SNAPSHOT on localhost with PID 32036 (/usr/local/git-progect/springboot-learing/springboot-log/target/springbootlog-1.0-SNAPSHOT.jar started by root in /usr/local/git-progect/Script_Test/Shell/imporove)
+2019-03-20 17:56:02.594 [main] INFO  cn.danao.LogApplication - No active profile set, falling back to default profiles: default
+2019-03-20 17:56:05.633 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-20 17:56:05.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-20 17:56:05.703 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-20 17:56:05.704 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-20 17:56:05.731 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-03-20 17:56:06.038 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-20 17:56:06.039 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3275 ms
+2019-03-20 17:56:06.146 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-20 17:56:06.158 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-20 17:56:06.160 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-20 17:56:06.160 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-20 17:56:06.161 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-20 17:56:06.714 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:56:07.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-20 17:56:07.459 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-20 17:56:07.508 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-20 17:56:07.511 [main] INFO  cn.danao.LogApplication - Started LogApplication in 6.409 seconds (JVM running for 7.622)
+2019-03-20 17:56:58.515 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-20 17:56:58.517 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-20 17:56:58.540 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2019-03-20 17:56:58.611 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.612 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.612 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.612 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.613 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.613 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.613 [http-nio-8080-exec-1] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.858 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:58.860 [http-nio-8080-exec-3] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.038 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.039 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.039 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.040 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.040 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.041 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:56:59.042 [http-nio-8080-exec-5] INFO  cn.danao.controller.HelloController - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2019-03-20 17:57:53.261 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:58:10.100 [main] INFO  cn.danao.LogApplication - Starting LogApplication v1.0-SNAPSHOT on localhost with PID 32207 (/usr/local/git-progect/springboot-learing/springboot-log/target/springbootlog-1.0-SNAPSHOT.jar started by root in /usr/local/git-progect/Script_Test/Shell/imporove)
+2019-03-20 17:58:10.105 [main] INFO  cn.danao.LogApplication - No active profile set, falling back to default profiles: default
+2019-03-20 17:58:13.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-20 17:58:13.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-20 17:58:13.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-20 17:58:13.550 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-20 17:58:13.578 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-03-20 17:58:13.779 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-20 17:58:13.790 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3516 ms
+2019-03-20 17:58:13.861 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-20 17:58:13.874 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-20 17:58:13.874 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-20 17:58:13.874 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-20 17:58:13.875 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-20 17:58:14.364 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 17:58:14.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-20 17:58:14.909 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-20 17:58:15.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-20 17:58:15.154 [main] INFO  cn.danao.LogApplication - Started LogApplication in 6.854 seconds (JVM running for 7.916)
+2019-03-20 18:03:43.181 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-20 18:04:01.536 [main] INFO  cn.danao.LogApplication - Starting LogApplication v1.0-SNAPSHOT on localhost with PID 32408 (/usr/local/git-progect/springboot-learing/springboot-log/target/springbootlog-1.0-SNAPSHOT.jar started by root in /usr/local/git-progect/Script_Test/Shell/imporove)
+2019-03-20 18:04:01.542 [main] INFO  cn.danao.LogApplication - No active profile set, falling back to default profiles: default
+2019-03-20 18:04:04.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-20 18:04:04.804 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-20 18:04:04.838 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-20 18:04:04.838 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-20 18:04:04.889 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-03-20 18:04:05.342 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-20 18:04:05.343 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3640 ms
+2019-03-20 18:04:05.390 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-20 18:04:05.394 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-20 18:04:05.395 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-20 18:04:05.395 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-20 18:04:05.396 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-20 18:04:05.790 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 18:04:06.339 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-20 18:04:06.358 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-20 18:04:06.408 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-20 18:04:06.411 [main] INFO  cn.danao.LogApplication - Started LogApplication in 6.584 seconds (JVM running for 7.649)
+2019-03-20 18:06:49.788 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-20 18:10:49.297 [main] INFO  cn.danao.LogApplication - Starting LogApplication v1.0-SNAPSHOT on localhost with PID 32674 (/usr/local/git-progect/springboot-learing/springboot-log/target/springbootlog-1.0-SNAPSHOT.jar started by root in /usr/local/git-progect/Script_Test/Shell/imporove)
+2019-03-20 18:10:49.304 [main] INFO  cn.danao.LogApplication - No active profile set, falling back to default profiles: default
+2019-03-20 18:10:52.874 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-03-20 18:10:52.921 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-20 18:10:53.210 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-20 18:10:53.210 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-03-20 18:10:53.233 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-03-20 18:10:53.344 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-20 18:10:53.344 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3851 ms
+2019-03-20 18:10:53.382 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-03-20 18:10:53.391 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-20 18:10:53.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-20 18:10:53.392 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2019-03-20 18:10:53.393 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-20 18:10:53.727 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-20 18:10:54.284 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-20 18:10:54.294 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-20 18:10:54.351 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-20 18:10:54.355 [main] INFO  cn.danao.LogApplication - Started LogApplication in 6.444 seconds (JVM running for 7.534)
+2019-03-20 18:10:59.501 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

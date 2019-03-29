@@ -22,3 +22,4 @@
 	“sh”并不是一个程序，而是一种标准（POSIX），
 
 	这种标准，在一定程度上（具体区别见下面的“Things bash has that sh does not”）保证了脚本的跨系统性（跨UNIX系统）
+
