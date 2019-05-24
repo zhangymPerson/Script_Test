@@ -19,6 +19,20 @@ function log(){
 
 # 编辑测试代码
 # 输出日志
+if [ $# -eq 1 ]; then
+	log "第一个参数是:" $1
+	exit 1
+else
+	logs ERROR "只需要一个参数"
+	exit 1
+fi
+
 
 logs ERROR error-info
 log log-info
+
+if [ $? -eq 0 ]; then
+    echo "success"
+else
+    echo "fail"
+fi
