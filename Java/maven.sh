@@ -1,5 +1,6 @@
 #/bin/sh
-
+# maven相关的操作命令
+VERSION=0.1
 function logs(){
 	date=$(date +'%Y-%m-%d %H:%M:%S')
 	echo "${date}" $*
@@ -11,50 +12,34 @@ function log(){
 	logs INFO $*
 }
 
-# 编辑测试代码
-# 输出日志
+function maven(){
+	log INFO mvn install $1
+	log INFO mvn install $2
+}
 
-#logs ERROR error-info
-#log log-info
 
-VERSION=0.1
-#处理参数对 
-ARGS=`getopt -o hv --long help,version -n $0 -- "$@"`
+echo "sh maven.sh 1"
 
-#初步校验参数的合法性
-if [ $? != 0 ]; then
-    echo "Terminating..."
-    exit 1
+if [ $# -eq 2 ]; then
+	log "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	log "脚本主要是实现maven的相关操作"
+	log 启动命令：sh 叫本名.sh arg1 arg2
+	log "	参数1： 1 = clean  2 = install"
+	log "	参数2： mavne项目位置 (pom.xml文件所在位置路径) "
+	log "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	log "第一个参数是:" $1
+	log "第二个参数是:" $2
+	maven $1 $2
+	exit 1
+else
+	log "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	log "脚本主要是实现maven的相关操作"
+	log 启动命令：sh 叫本名.sh arg1 arg2
+	log "	参数1： 1 = clean  2 = install"
+	log "	参数2： mavne项目位置 (pom.xml文件所在位置路径) "
+	log "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+	logs ERROR "启动脚本需要两个参数"
+	exit 1
 fi
- 
-#将规范化后的命令行参数分配至位置参数（$1,$2,...)
-eval set -- "${ARGS}"
 
 
-#解析参数 
-# 如 -h -v 
-while true
-do
-    case "$1" in
-        -h|--help) 
-            echo "$0的作用是:代替maven的命令";
-            shift
-	    exit 1
-            ;;
-        -v|--version)
-            echo "$0的版本是:" $VERSION;
-            shift
-	    exit 1
-            ;;
-        *)
-            echo "Internal error!"
-            exit 1
-            ;;
-    esac
-done
- 
-#处理剩余的参数(不带斜杠的参数)
-for arg in $@
-do
-    echo "processing $arg"
-done
