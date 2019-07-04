@@ -18,3 +18,22 @@ echo "================================= 构建成功 ===========================
 
 ::paus
 ```
+
+
+- 参数
+
+
+    ```bat
+    @echo off
+    ::read arg[0]
+    set input=%1%
+    set input2=%2%
+    
+    ::传入普通参数
+    echo your's input:%input%,%input2%  
+
+    ::参数使用 set 创建 且 不能加空格，否则读取不到 eg 
+
+    :: set test=%1   写成 set test = %1 则需要%test % 读取 ，且读取的内容是 ”空格+参数1的内容“
+
+    ```
