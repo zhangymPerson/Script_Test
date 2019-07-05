@@ -2,7 +2,8 @@
 :: dir c:\*.* > a.txt
 ::dir c:\*.* > b.txt
 ::dir c:\*.* >> c.txt
-::自动关机命令
-echo 半小时后即将自动关机
+::锟皆讹拷锟截伙拷锟斤拷锟斤拷
+echo 锟斤拷小时锟襟即斤拷锟皆讹拷锟截伙拷
+shutdown -a
 shutdown -s -t 1800
 ::pause
