@@ -2,6 +2,7 @@
 :: dir c:\*.* > a.txt
 ::dir c:\*.* > b.txt
 ::dir c:\*.* >> c.txt
-echo 取消自动关机
+echo deleteshutdown
 shutdown -a
+echo success
 pause

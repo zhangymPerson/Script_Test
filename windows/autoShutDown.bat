@@ -3,7 +3,7 @@
 ::dir c:\*.* > b.txt
 ::dir c:\*.* >> c.txt
 ::�Զ��ػ�����
-echo ��Сʱ�󼴽��Զ��ػ�
+echo 1800s after os auto shutdown
 shutdown -a
 shutdown -s -t 1800
 ::pause
